@@ -8,7 +8,7 @@ struct ContentView: View {
         correctAnswerIndex: 0
     )
     
-    let mainColor = Color(red: 20/255, green: 28/255, blue: 58/255)
+    @State var mainColor = Color(red: 20/255, green: 28/255, blue: 58/255)
     let accentColor = Color(red: 48/255, green: 105/255, blue: 240/255)
     
     var body: some View {
@@ -25,46 +25,14 @@ struct ContentView: View {
                     .multilineTextAlignment(.leading)
                 Spacer()
                 HStack {
-                    Button(action: {
-                        print("Tapped on Choice 1")
-                    }, label: {
-                        Text(question.possibleAnswers[0])
-                            .font(.body)
-                            .bold()
-                            .multilineTextAlignment(.center)
-                            .padding()
-                            .border(accentColor, width: 4)
-                    })
-                    Button(action: {
-                        print("Tapped on Choice 2")
-                    }, label: {
-                        Text(question.possibleAnswers[1])
-                            .font(.body)
-                            .bold()
-                            .multilineTextAlignment(.center)
-                            .padding()
-                            .border(accentColor, width: 4)
-                    })
-                    Button(action: {
-                        print("Tapped on Choice 3")
-                    }, label: {
-                        Text(question.possibleAnswers[2])
-                            .font(.body)
-                            .bold()
-                            .multilineTextAlignment(.center)
-                            .padding()
-                            .border(accentColor, width: 4)
-                    })
-                    Button(action: {
-                        print("Tapped on Choice 4")
-                    }, label: {
-                        Text(question.possibleAnswers[3])
-                            .font(.body)
-                            .bold()
-                            .multilineTextAlignment(.center)
-                            .padding()
-                            .border(accentColor, width: 4)
-                    })
+                    ForEach(0..<question.possibleAnswers.count) { answerIndex in
+                        Button(action: {
+                          print("Tapped on option with the text: \(question.possibleAnswers[answerIndex])")
+                          mainColor = answerIndex == question.correctAnswerIndex ? .green : .red
+                        }) {
+                          ChoiceTextView(choiceText: question.possibleAnswers[answerIndex])
+                        }
+                      }
                 }
             }
         }
