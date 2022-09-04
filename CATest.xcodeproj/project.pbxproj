@@ -21,6 +21,8 @@
 		4AC64B5528BF417900F0E363 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC64B5328BF417900F0E363 /* Question.swift */; };
 		4AC64B5728BF532700F0E363 /* ChoiceTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC64B5628BF532700F0E363 /* ChoiceTextView.swift */; };
 		4AC64B5828BF532700F0E363 /* ChoiceTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC64B5628BF532700F0E363 /* ChoiceTextView.swift */; };
+		4AC64B5A28C4616700F0E363 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC64B5928C4616700F0E363 /* Game.swift */; };
+		4AC64B5B28C4616700F0E363 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC64B5928C4616700F0E363 /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,7 @@
 		4A3644CB28B5AC4C000336C7 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
 		4AC64B5328BF417900F0E363 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		4AC64B5628BF532700F0E363 /* ChoiceTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceTextView.swift; sourceTree = "<group>"; };
+		4AC64B5928C4616700F0E363 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,11 +106,10 @@
 		4A3644A428B5AC47000336C7 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				4AC64B5D28C461BB00F0E363 /* Views */,
+				4AC64B5C28C4618C00F0E363 /* Models */,
 				4A3644A528B5AC47000336C7 /* CATestApp.swift */,
-				4A3644A628B5AC47000336C7 /* ContentView.swift */,
-				4AC64B5628BF532700F0E363 /* ChoiceTextView.swift */,
 				4A3644A728B5AC4C000336C7 /* Assets.xcassets */,
-				4AC64B5328BF417900F0E363 /* Question.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -147,6 +149,24 @@
 				4A3644CB28B5AC4C000336C7 /* Tests_macOSLaunchTests.swift */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		4AC64B5C28C4618C00F0E363 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4AC64B5928C4616700F0E363 /* Game.swift */,
+				4AC64B5328BF417900F0E363 /* Question.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4AC64B5D28C461BB00F0E363 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4AC64B5628BF532700F0E363 /* ChoiceTextView.swift */,
+				4A3644A628B5AC47000336C7 /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -308,6 +328,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4AC64B5428BF417900F0E363 /* Question.swift in Sources */,
+				4AC64B5A28C4616700F0E363 /* Game.swift in Sources */,
 				4A3644CF28B5AC4C000336C7 /* ContentView.swift in Sources */,
 				4AC64B5728BF532700F0E363 /* ChoiceTextView.swift in Sources */,
 				4A3644CD28B5AC4C000336C7 /* CATestApp.swift in Sources */,
@@ -319,6 +340,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4AC64B5528BF417900F0E363 /* Question.swift in Sources */,
+				4AC64B5B28C4616700F0E363 /* Game.swift in Sources */,
 				4A3644D028B5AC4C000336C7 /* ContentView.swift in Sources */,
 				4AC64B5828BF532700F0E363 /* ChoiceTextView.swift in Sources */,
 				4A3644CE28B5AC4C000336C7 /* CATestApp.swift in Sources */,
