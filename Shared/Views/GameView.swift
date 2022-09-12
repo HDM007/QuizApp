@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct ContentView: View {
+struct GameView: View {
     
     let question = Question(
         questionText: "Which Greek God ruled the seas?",
@@ -9,7 +9,6 @@ struct ContentView: View {
     )
     
     @State var mainColor = Color(red: 20/255, green: 28/255, blue: 58/255)
-    let accentColor = Color(red: 48/255, green: 105/255, blue: 240/255)
     
     var body: some View {
         ZStack {
@@ -43,6 +42,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        GameView()
     }
 }
