@@ -33,6 +33,10 @@
 		4AC64B6A28D209E800F0E363 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC64B6828D209E800F0E363 /* GameViewModel.swift */; };
 		4AC64B6C28D20EFE00F0E363 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC64B6B28D20EFE00F0E363 /* QuestionView.swift */; };
 		4AC64B6D28D20EFE00F0E363 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC64B6B28D20EFE00F0E363 /* QuestionView.swift */; };
+		4AC64B6F28D21BF600F0E363 /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC64B6E28D21BF600F0E363 /* ScoreView.swift */; };
+		4AC64B7028D21BF600F0E363 /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC64B6E28D21BF600F0E363 /* ScoreView.swift */; };
+		4AC64B7228D21C4200F0E363 /* ScoreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC64B7128D21C4200F0E363 /* ScoreViewModel.swift */; };
+		4AC64B7328D21C4200F0E363 /* ScoreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC64B7128D21C4200F0E363 /* ScoreViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +77,8 @@
 		4AC64B6428CF39BC00F0E363 /* BottomTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomTextView.swift; sourceTree = "<group>"; };
 		4AC64B6828D209E800F0E363 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
 		4AC64B6B28D20EFE00F0E363 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		4AC64B6E28D21BF600F0E363 /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
+		4AC64B7128D21C4200F0E363 /* ScoreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +191,7 @@
 				4AC64B6128CF37CC00F0E363 /* GameColor.swift */,
 				4AC64B6428CF39BC00F0E363 /* BottomTextView.swift */,
 				4AC64B6B28D20EFE00F0E363 /* QuestionView.swift */,
+				4AC64B6E28D21BF600F0E363 /* ScoreView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -193,6 +200,7 @@
 			isa = PBXGroup;
 			children = (
 				4AC64B6828D209E800F0E363 /* GameViewModel.swift */,
+				4AC64B7128D21C4200F0E363 /* ScoreViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -358,10 +366,12 @@
 				4AC64B6C28D20EFE00F0E363 /* QuestionView.swift in Sources */,
 				4AC64B6928D209E800F0E363 /* GameViewModel.swift in Sources */,
 				4AC64B5428BF417900F0E363 /* Question.swift in Sources */,
+				4AC64B7228D21C4200F0E363 /* ScoreViewModel.swift in Sources */,
 				4AC64B5F28CF336300F0E363 /* WelcomeView.swift in Sources */,
 				4AC64B5A28C4616700F0E363 /* Game.swift in Sources */,
 				4A3644CF28B5AC4C000336C7 /* GameView.swift in Sources */,
 				4AC64B6528CF39BC00F0E363 /* BottomTextView.swift in Sources */,
+				4AC64B6F28D21BF600F0E363 /* ScoreView.swift in Sources */,
 				4AC64B6228CF37CC00F0E363 /* GameColor.swift in Sources */,
 				4AC64B5728BF532700F0E363 /* ChoiceTextView.swift in Sources */,
 				4A3644CD28B5AC4C000336C7 /* CATestApp.swift in Sources */,
@@ -375,10 +385,12 @@
 				4AC64B6D28D20EFE00F0E363 /* QuestionView.swift in Sources */,
 				4AC64B6A28D209E800F0E363 /* GameViewModel.swift in Sources */,
 				4AC64B5528BF417900F0E363 /* Question.swift in Sources */,
+				4AC64B7328D21C4200F0E363 /* ScoreViewModel.swift in Sources */,
 				4AC64B6028CF336300F0E363 /* WelcomeView.swift in Sources */,
 				4AC64B5B28C4616700F0E363 /* Game.swift in Sources */,
 				4A3644D028B5AC4C000336C7 /* GameView.swift in Sources */,
 				4AC64B6628CF39BC00F0E363 /* BottomTextView.swift in Sources */,
+				4AC64B7028D21BF600F0E363 /* ScoreView.swift in Sources */,
 				4AC64B6328CF37CC00F0E363 /* GameColor.swift in Sources */,
 				4AC64B5828BF532700F0E363 /* ChoiceTextView.swift in Sources */,
 				4A3644CE28B5AC4C000336C7 /* CATestApp.swift in Sources */,
