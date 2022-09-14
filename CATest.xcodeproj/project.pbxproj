@@ -29,6 +29,10 @@
 		4AC64B6328CF37CC00F0E363 /* GameColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC64B6128CF37CC00F0E363 /* GameColor.swift */; };
 		4AC64B6528CF39BC00F0E363 /* BottomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC64B6428CF39BC00F0E363 /* BottomTextView.swift */; };
 		4AC64B6628CF39BC00F0E363 /* BottomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC64B6428CF39BC00F0E363 /* BottomTextView.swift */; };
+		4AC64B6928D209E800F0E363 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC64B6828D209E800F0E363 /* GameViewModel.swift */; };
+		4AC64B6A28D209E800F0E363 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC64B6828D209E800F0E363 /* GameViewModel.swift */; };
+		4AC64B6C28D20EFE00F0E363 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC64B6B28D20EFE00F0E363 /* QuestionView.swift */; };
+		4AC64B6D28D20EFE00F0E363 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC64B6B28D20EFE00F0E363 /* QuestionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +71,8 @@
 		4AC64B5E28CF336200F0E363 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		4AC64B6128CF37CC00F0E363 /* GameColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameColor.swift; sourceTree = "<group>"; };
 		4AC64B6428CF39BC00F0E363 /* BottomTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomTextView.swift; sourceTree = "<group>"; };
+		4AC64B6828D209E800F0E363 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		4AC64B6B28D20EFE00F0E363 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +121,7 @@
 		4A3644A428B5AC47000336C7 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				4AC64B6728D2090100F0E363 /* ViewModels */,
 				4AC64B5D28C461BB00F0E363 /* Views */,
 				4AC64B5C28C4618C00F0E363 /* Models */,
 				4A3644A528B5AC47000336C7 /* CATestApp.swift */,
@@ -177,8 +184,17 @@
 				4AC64B5E28CF336200F0E363 /* WelcomeView.swift */,
 				4AC64B6128CF37CC00F0E363 /* GameColor.swift */,
 				4AC64B6428CF39BC00F0E363 /* BottomTextView.swift */,
+				4AC64B6B28D20EFE00F0E363 /* QuestionView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		4AC64B6728D2090100F0E363 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				4AC64B6828D209E800F0E363 /* GameViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -339,6 +355,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AC64B6C28D20EFE00F0E363 /* QuestionView.swift in Sources */,
+				4AC64B6928D209E800F0E363 /* GameViewModel.swift in Sources */,
 				4AC64B5428BF417900F0E363 /* Question.swift in Sources */,
 				4AC64B5F28CF336300F0E363 /* WelcomeView.swift in Sources */,
 				4AC64B5A28C4616700F0E363 /* Game.swift in Sources */,
@@ -354,6 +372,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AC64B6D28D20EFE00F0E363 /* QuestionView.swift in Sources */,
+				4AC64B6A28D209E800F0E363 /* GameViewModel.swift in Sources */,
 				4AC64B5528BF417900F0E363 /* Question.swift in Sources */,
 				4AC64B6028CF336300F0E363 /* WelcomeView.swift in Sources */,
 				4AC64B5B28C4616700F0E363 /* Game.swift in Sources */,

@@ -93,5 +93,13 @@ struct Question: Hashable {
                         "Hestia"
                     ],
                     correctAnswerIndex: 1),
+            Question(questionText: "Which Greek God ruled the seas?",
+                possibleAnswers: [
+                    "Posideon",
+                    "Aphrodite",
+                    "Hades",
+                    "Dionysus"],
+                    correctAnswerIndex: 0
+            )
             ]
 }
